@@ -1,0 +1,76 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+/* global */
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* variables */
+:root {
+	--softBlue: hsl(231, 69%, 60%);
+	--softRed: hsl(0, 94%, 66%);
+	--grayishBlue: hsl(229, 8%, 50%);
+	--lightGrayishBlue: hsl(229, 8%, 80%);
+	--veryDarkBlue: hsl(229, 31%, 21%);
+	--Rubik: 'Rubik', sans-serif;
+	--borderRadius: 0.35rem;
+	--trans: all 0.350s linear;
+}
+
+body {
+	font-family: var(--Rubik);
+	width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--veryDarkBlue);
+	text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+	font-family: var(--Rubik);
+}
+
+.btn {
+	font-family: var(--Rubik);
+	border-radius: var(--borderRadius);
+	background: var(--softBlue);
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: var(--trans);
+}
+
+.btn:hover, .btn:focus {
+	background: #fff;
+    color: var(--softBlue);
+    box-shadow: 0 0 2px 2px var(--softBlue);
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+p {
+    color: var(--grayishBlue);
+    line-height: 1.6;
+}
+
+.active-answer {
+    display: block !important;
+}
