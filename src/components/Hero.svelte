@@ -24,6 +24,7 @@ main {
     align-items: center;
     gap: 1rem;
     padding: 2.5rem;
+    overflow-x: hidden;
 }
 
 .column-1 {
@@ -54,7 +55,6 @@ h1 {
 
 .column-2 {
     position: relative;
-    overflow: hidden;
 }
 
 .column-2::before {
