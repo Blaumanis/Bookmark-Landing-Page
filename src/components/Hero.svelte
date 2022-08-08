@@ -54,13 +54,14 @@ h1 {
 
 .column-2 {
     position: relative;
+    overflow: hidden;
 }
 
 .column-2::before {
     content: "";
     position: absolute;
     height: 80%;
-    width: 78.8%;
+    width: 100%;
     z-index: -1;
     top: 20%;
     left: 25%;
