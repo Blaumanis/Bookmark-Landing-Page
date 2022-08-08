@@ -60,7 +60,7 @@ h1 {
     content: "";
     position: absolute;
     height: 80%;
-    width: 100%;
+    width: 78.8%;
     z-index: -1;
     top: 20%;
     left: 25%;
